@@ -13,7 +13,7 @@ public class KatoIHanako_Chapter17 extends Kato_Chapter17{
 	
 	
 	void eachIntroduce() {
-	System.out.println("加藤花子");
+	System.out.println("趣味は読書です");
 	}
 	
 

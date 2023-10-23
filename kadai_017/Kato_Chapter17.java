@@ -3,7 +3,6 @@ package kadai_017;
 public abstract class Kato_Chapter17 {
 
 			
-	private static final String String = null;
 	//フィールドの設定
 	public String familyName;
 	public String givenName;
