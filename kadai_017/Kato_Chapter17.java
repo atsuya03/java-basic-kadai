@@ -9,22 +9,26 @@ public abstract class Kato_Chapter17 {
 	public String adress;
 	
 	//givennameをコンストラクタ
-	public Kato_Chapter17(String familyName,String givenName, String adress) {
-		this.familyName = familyName;
+	public Kato_Chapter17(String givenName) {
 		this.givenName=givenName;
-		this.adress=adress;
+
 		
 	}
-	
+	      
+	      
+	      
+	      
+	      
+	      
 	
 	//共通紹介メソッド
-	public void commonIntroduce(String familyName,String givenName,String adress) {
-		this.familyName = familyName;
-		this.givenName=givenName;
-		this.adress=adress;
+	public void commonIntroduce() {
+		String familyName = "加藤";
+		String adress="東京都中野区〇";
 		
-		System.out.println("名前は"+familyName+givenName);
-		System.out.println(adress);
+		
+		System.out.println("名前は"+familyName+givenName+"です。");
+		System.out.println("住所は"+adress+"です。");
 		
 	}
 	
@@ -34,7 +38,7 @@ public abstract class Kato_Chapter17 {
 	
 	//趣味紹介メソッド
     public void execIntroduce() {
-    	commonIntroduce(familyName,givenName,adress);
+    	commonIntroduce();
     	eachIntroduce();
     	
     	
