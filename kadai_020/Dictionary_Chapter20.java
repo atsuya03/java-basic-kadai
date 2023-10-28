@@ -4,6 +4,8 @@ import java.util.HashMap;
 import java.util.Set;
 
 public class Dictionary_Chapter20 {
+	String searchWord;
+	
 	HashMap<String,String> dicMap = new HashMap<>();
 	
 	//単語の追加
